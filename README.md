@@ -8,13 +8,20 @@ How-to
 
 1. Install Python 2.7.X from [here](https://www.python.org/download/releases/)
 
-2. Install PyGame 1.9.X from [here](http://www.pygame.org/download.shtml)
+2. Install PyGame 1.9.X from [here](http://www.pygame.org/download.shtml) or via pip from hg repository `pip install hg+http://bitbucket.org/pygame/pygame`
 
-3. Clone this repository: `git clone https://github.com/sourabhv/FlappyBirdClone.git` or click `Download ZIP` in right panel and extract it.
+2.1 If on OSX install homebrew: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2.2 Install dependecies: brew install sdl sdl_image sdl_mixer sdl_sound sdl_ttf
 
-4. Run `python flappy.py` from the repo's directory
+3. Install virtualenv: pip install virtualenv
 
-5. use <kbd>&uarr;</kbd> or <kbd>Space</kbd> key to play and <kbd>Esc</kbd> to close the game.
+4. Clone this repository: `git clone https://github.com/SteveClement/FlapPyBird.git` or click `Download ZIP` in right panel and extract it.
+
+5. Create virtualenv: cd FlapPyBird ; virtualenv -p python2 venv ; . venv/bin/activate ; pip install -r requirements.txt
+
+6. Run `python flappy.py` from the repo's directory
+
+7. use <kbd>&uarr;</kbd> or <kbd>Space</kbd> key to play and <kbd>Esc</kbd> to close the game.
 
   (Note: Install pyGame for same version python as above)
 
